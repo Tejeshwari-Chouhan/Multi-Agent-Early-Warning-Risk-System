@@ -1,8 +1,10 @@
 # Multi-Agent-Early-Warning-Risk-System
 
 Multi-Agent Early Warning Risk System [LangGraph Agentic Framework] 
+
 Business Context - The bank wants a simple Early Warning Risk Monitoring System. 
-You can create a synthetic data - a CSV file containing: 
+
+We are using a synthetic data - a CSV file containing: 
 • Customer ID 
 • Loan Amount 
 • Days Past Due (DPD) 
@@ -10,14 +12,19 @@ You can create a synthetic data - a CSV file containing:
 • Credit Score 
 • Last 3-month transaction trend (Increase / Stable / Decrease) 
 • External news sentiment (Positive / Neutral / Negative) 
-Goal: Build a Parallel Multi-Agent Risk Assessment System using LangGraph. 
-Required Workflow Design - Use Parallel Multi-Agent Architecture. All agents must be 
+
+Goal: Build a Parallel Multi-Agent Risk Assessment System using LangGraph.
+
+Required Workflow Design - Using Parallel Multi-Agent Architecture. All agents must be 
 executed independently and simultaneously. 
+
 Workflow: 
+
 User Input (Customer Data) 
 → Trigger Parallel Agents 
 → Combine Outputs 
 → Final Risk Decision 
+
 Agents Required (Parallel) 
 1. Financial Risk Agent 
 • Evaluate DPD 
@@ -40,7 +47,8 @@ Agents Required (Parallel)
 • Categorize: 
 750 → Low 
 650–750 → Medium 
-<650 → High 
+<650 → High
+
 Final Aggregation Step - After all agents complete: 
 • A final combining node must: 
 • Collect all outputs 
