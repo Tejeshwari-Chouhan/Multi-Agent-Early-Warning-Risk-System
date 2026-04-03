@@ -1,0 +1,11 @@
+CustomerID,LoanAmount,DaysPastDue,Industry,CreditScore,TransactionTrend,NewsSentiment
+CUST001,500000,0,Retail,760,Stable,Neutral
+CUST002,2000000,45,Manufacturing,690,Decrease,Negative
+CUST003,750000,10,Healthcare,720,Increase,Positive
+CUST004,3000000,75,RealEstate,640,Decrease,Negative
+CUST005,1200000,5,IT,710,Stable,Neutral
+CUST006,4500000,90,Construction,600,Decrease,Negative
+CUST007,800000,15,Logistics,735,Increase,Neutral
+CUST008,2500000,30,Hospitality,670,Decrease,Negative
+CUST009,600000,0,Ecommerce,780,Increase,Positive
+CUST010,1500000,60,Manufacturing,655,Decrease,Neutral
